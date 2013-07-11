@@ -1,0 +1,23 @@
+$baseFontFamily: ShareTechMono;
+@import url(http://fonts.googleapis.com/css?family=ShareTechMono);
+
+@import 'bootstrap';
+
+.container .brand {
+	color: $blue;
+}
+
+body {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin-bottom: 20px;
+}
+
+@import 'bootstrap-responsive';
+
+footer {
+	text-align: center;
+	padding-top: 10px;
+	color: $grayLight;
+	letter-spacing: 1px;
+}
