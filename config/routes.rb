@@ -1,4 +1,7 @@
 Absci::Application.routes.draw do
+  resources :protocols
+
+
   devise_for :users
 
   root :to => 'pages#home'

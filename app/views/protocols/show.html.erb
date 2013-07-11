@@ -1,0 +1,70 @@
+<div class="row">
+  <div class="span6 offset3">
+    <div class="well">
+      <p>
+        <b>User Application Statement:</b>
+        <%= @protocol.statement %>
+      </p>
+      <p>
+        <b>Cell/Tissue Model:</b>
+        <%= @protocol.cell %>
+      </p>
+      <p>
+        <b>Lysis Buffer:</b>
+        <%= @protocol.lysis_buffer %>
+      </p>
+      <p>
+        <b>Gel Percentage:</b>
+        <%= @protocol.gel %>%
+      </p>
+      <p>
+        <b>Membrane Type:</b>
+        <%= @protocol.membrane %>
+      </p>
+      <p>
+        <b>Transfer Conditions:</b>
+        <%= @protocol.transfer %>
+      </p>
+      <p>
+        <b>Blocking Buffer:</b>
+        <%= @protocol.blocking_buffer %>
+      </p>
+      <p>
+        <b>Primary Dilution with Incubation Time & Temp:</b>
+        <%= @protocol.primary_description %>
+      </p>
+      <p>
+        <b>Secondary Dilution with Incubation Time & Temp:</b>
+        <%= @protocol.secondary_description %>
+      </p>
+      <p>
+        <b>Washes:</b>
+        <%= @protocol.washes %>
+      </p>
+      <p>
+        <b>Detection Method:</b>
+        <%= @protocol.detection %>
+      </p>
+      <p>
+        <b>Description:</b>
+        <%= @protocol.description %>
+      </p>
+      <p>
+        <em>by <%= @protocol.user.name %></em>
+      </p>
+
+      <br />
+
+      <% if current_user == @protocol.user %>
+        <%= link_to 'Edit Protocol', edit_protocol_path(@protocol), class: "btn btn-primary" %>
+        <%= link_to 'Destroy Protocol', @protocol, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %>
+      <% end %>     
+    </div>
+
+    <br />
+
+    <%= link_to 'New Protocol', new_protocol_path %> | 
+    <%= link_to 'Back to Index', protocols_path %>
+
+  </div>
+</div>

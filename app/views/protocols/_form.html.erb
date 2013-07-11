@@ -1,0 +1,20 @@
+<%= simple_form_for(@protocol, html: { class: "form-horizontal"}) do |f| %>
+  <%= f.error_notification %>
+
+  <%= f.input :statement, :placeholder => "User application statement" %>
+  <%= f.input :cell, :placeholder => "Cell or tissue model" %>
+  <%= f.input :lysis_buffer, :placeholder => "Lysis buffer" %>
+  <%= f.input :gel, as: :float, :placeholder => "Gel percentage" %>
+  <%= f.input :membrane, :placeholder => "Membrane type" %>
+  <%= f.input :transfer, :placeholder => "Transfer conditions" %>
+  <%= f.input :blocking_buffer, :placeholder => "Blocking buffer" %>
+  <%= f.input :primary_description, as: :text, input_html: { rows: "2" }, :placeholder => "Primary dilution, incubation time & temp" %>
+  <%= f.input :secondary_description, as: :text, input_html: { rows: "2" }, :placeholder => "Secondary dilution, incubation time & temp" %>
+  <%= f.input :washes, :placeholder => "Washes" %>
+  <%= f.input :detection, :placeholder => "Detection method" %>
+  <%= f.input :description, as: :text, input_html: { rows: "3" }, :placeholder => "Describe your protocol" %>
+
+  <div class="form-actions">
+    <%= f.button :submit, class: "btn btn-primary" %>
+  </div>
+<% end %>

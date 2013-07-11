@@ -1,0 +1,17 @@
+<h1>Listing Protocols</h1>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>User Application Statement</th>
+      <th>Cell or Tissue Model</th>
+      <th>Description</th>
+      <th>Author</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <%= render @protocols %>
+  </tbody>
+</table>
+
+<%= link_to 'New Protocol', new_protocol_path %>
