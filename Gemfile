@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
 gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
+gem 'bcrypt-ruby', '3.1.1.rc1', :require => 'bcrypt'
 
 group :production do
 	gem 'pg'

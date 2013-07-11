@@ -15,12 +15,30 @@
       <!-- Everything you want hidden at 940px or less, place within here -->
       <div class="nav-collapse collapse">
         <!-- .nav, .navbar-search, .navbar-form, etc -->
-				<ul class="nav">
-			    <li><%= link_to "About", about_path %></li>
+        <ul class="nav">
+          <li><%= link_to "About", about_path %></li>
           <li><%= link_to "Products", products_path %></li>
           <li><%= link_to "Team", team_path %></li>
-					<li><%= link_to "Contact", contact_path %></li>
-				</ul>
+          <li><%= link_to "Contact", contact_path %></li>
+        </ul>
+        <ul class="nav pull-right">
+          <% if user_signed_in? %>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Welcome, <%= current_user.name %>
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="disabled"><%= link_to "Manage Account", "#" %></li>
+                <li><%= link_to "Edit Profile", edit_user_registration_path %></li>
+                <li class="divider"></li>
+                <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+              </ul>
+            </li>
+          <% else %>
+            <li><%= link_to "Login", new_user_session_path %></li>
+          <% end %>
+        </ul>
       </div>
     </div>
   </div>
