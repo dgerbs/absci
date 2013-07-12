@@ -1,17 +1,5 @@
 <% if user_signed_in? %>
-	<div class="hero-unit">
-		<h2 class="row-fluid text-center">You're now logged in.</h2>
-		</br>
-		</br>
-		<div class="row-fluid">
-			<div class="span4 offset4">
-				<div class="span12">
-						<%= link_to "Search Antibody Binder", '#', class: "btn btn-large btn-block btn-info" %>
-				</div>
-			</div>
-		</div>
-	</div>
-	<%= render 'pages/welcome' %>
+	<%= render 'pages/profile' %>
 <% else %>
 	<div class="hero-unit">
 		<div class="text-center">
@@ -30,7 +18,7 @@
             <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-large btn-block btn-success" %>
           </div>
           <div class="span6">
-            <%= link_to "Search Antibodies", '#', class: "btn btn-large btn-block btn-info" %>
+            <%= link_to "Search Antibodies", antibodies_path, class: "btn btn-large btn-block btn-info" %>
           </div>
         </div>
       </div>

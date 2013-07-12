@@ -1,6 +1,6 @@
 Absci::Application.routes.draw do
+  resources :antibodies
   resources :protocols
-
 
   devise_for :users
 

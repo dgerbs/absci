@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Target:</b>
+  <%= @antibody.target %>
+</p>
+
+<p>
+  <b>Vendor:</b>
+  <%= @antibody.vendor %>
+</p>
+
+<p>
+  <b>Product:</b>
+  <%= @antibody.product %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @antibody.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_antibody_path(@antibody) %> |
+<%= link_to 'Back', antibodies_path %>

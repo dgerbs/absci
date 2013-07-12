@@ -17,6 +17,7 @@ class Protocol < ActiveRecord::Base
   validates :washes, presence: true
 
   belongs_to :user
+  belongs_to :antibody
 
 	# Ensures the presence of a user, and that a user matches with a given protocol
   validates :user_id, presence: true
