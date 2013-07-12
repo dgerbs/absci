@@ -1,11 +1,30 @@
-<div class="box">
-  <h4>Target: </h4><%= antibody.target %>
-   <p class="details">
-  <h4>Vendor: </h4><%= antibody.vendor %>
-    <br />
-  <h4>Product: </h4><%= antibody.product %>
-    <br />
-  <h4>Description: </h4><%= antibody.description %>
-    </p>
-    <%= link_to 'Show', antibody %>
-</div>
+<% if user_signed_in? %>
+	<div class="box">
+	  <h5>Target: </h5><%= antibody.target %>
+	  <p class="details">
+	  	<h5>Vendor: </h5><%= antibody.vendor %>
+	    	<br />
+	  	<h5>Product: </h5><%= antibody.product %>
+	    	<br />
+	  	<h5>Description: </h5><%= antibody.description %>
+	   		<br />
+	   	<h4>Approval Rating: <%= antibody.reputation_for(:votes).to_i %></h4>
+	   	<h4>Protocols: </h4>
+	   </p>
+	   <%= link_to 'Show', antibody %>
+	</div>
+<% else %>
+	<div class="box">
+	  <h5>Target: </h5><%= antibody.target %>
+	  <p class="details">
+	  	<h5>Vendor: </h5><%= antibody.vendor %>
+	    	<br />
+	  	<h5>Product: </h5><%= antibody.product %>
+	    	<br />
+	  	<h5>Description: </h5><%= antibody.description %>
+	   		<br />
+	   	<h4>Approval Rating: <%= antibody.reputation_for(:votes).to_i %></h4>
+	   	<h4>Protocols: </h4>
+	   </p>
+	</div>
+<% end %>
