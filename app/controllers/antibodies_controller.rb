@@ -2,7 +2,7 @@ class AntibodiesController < ApplicationController
   # GET /antibodies
   # GET /antibodies.json
   def index
-    @antibodies = Antibody.order("created_at desc").page(params[:page]).per_page(8)
+    @antibodies = Antibody.page(params[:page]).per_page(8).find_with_reputation(:votes, :all, order: "votes desc")
 
     respond_to do |format|
       format.html # index.html.erb

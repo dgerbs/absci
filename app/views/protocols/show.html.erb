@@ -49,10 +49,7 @@
         <b>Description:</b>
         <%= @protocol.description %>
       </p>
-      <p>
-        <em>by <%= @protocol.user.name %></em>
-      </p>
-
+    
       <br />
 
       <% if current_user == @protocol.user %>
@@ -63,8 +60,7 @@
 
     <br />
 
-    <%= link_to 'New Protocol', new_protocol_path %> | 
-    <%= link_to 'Back to Index', protocols_path %>
+    <%= link_to 'Back', current_user %>
 
   </div>
 </div>

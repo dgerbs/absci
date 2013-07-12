@@ -5,7 +5,6 @@
       <th>User Application Statement</th>
       <th>Cell or Tissue Model</th>
       <th>Description</th>
-      <th>Author</th>
     </tr>
   </thead>
 
@@ -15,7 +14,6 @@
       <td><%= protocol.statement %></td>
       <td><%= protocol.cell %></td>
       <td><%= protocol.description %></td>
-      <td><em><%= protocol.user.name %></em></td>
       <td><%= link_to 'Info', protocol, class: "btn btn-info" %></td>
     </tr>
   <% end %>

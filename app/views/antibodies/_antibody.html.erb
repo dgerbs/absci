@@ -4,8 +4,6 @@
 	  <p class="details">
 	  	<h5>Vendor: </h5><%= antibody.vendor %>
 	    	<br />
-	  	<h5>Product: </h5><%= antibody.product %>
-	    	<br />
 	  	<h5>Description: </h5><%= antibody.description %>
 	   		<br />
 	   	<h4>Approval Rating: <%= antibody.reputation_for(:votes).to_i %></h4>
