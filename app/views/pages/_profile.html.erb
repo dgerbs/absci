@@ -3,7 +3,7 @@
     <div class="span3">
     	<div class="well">
       	<p>
-      		My profile.
+      		Welcome, <%= current_user.name %>
       		<br />
       		<br />
       		<i class="icon-user"></i>
@@ -16,7 +16,7 @@
     <div class="span9">
     	<div class="well">
       	<p>
-      		My projects.
+      		<%= link_to 'My Protocols', current_user %>
       		<br />
       		<br />
       		<i class="icon-file"></i>

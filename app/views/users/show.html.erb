@@ -1,1 +1,10 @@
-<h1><%= @user.name %></h1>
+<h3><%= @user.name %></h3>
+<div class="span8">
+	<% if @user.protocols.any? %>
+		<ol>
+			<h4>Protocols (<%= @user.protocols.count %>)</h4>
+			<%= render @protocols %>
+		</ol>
+		<%= will_paginate @protocols %>
+	<% end %>
+</div>
