@@ -2,7 +2,7 @@ class AntibodiesController < ApplicationController
   # GET /antibodies
   # GET /antibodies.json
   def index
-    @antibodies = Antibody.all
+    @antibodies = Antibody.order("created_at desc").page(params[:page]).per_page(8)
 
     respond_to do |format|
       format.html # index.html.erb
