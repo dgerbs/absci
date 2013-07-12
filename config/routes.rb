@@ -1,10 +1,13 @@
 Absci::Application.routes.draw do
+  get "users/show"
+
   resources :antibodies do
     member { post :vote }
   end
   resources :protocols
 
   devise_for :users
+  match 'users/:id' => 'users#show', as: :user
 
   root :to => 'pages#home'
 
