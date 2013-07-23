@@ -3,7 +3,7 @@ class ProtocolsController < ApplicationController
   # GET /protocols
   # GET /protocols.json
   def index
-    @protocols = Protocol.all
+    @protocols = Protocol.order("created_at desc").page(params[:page]).per_page(4)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -77,7 +77,7 @@ class ProtocolsController < ApplicationController
     @protocol.destroy
 
     respond_to do |format|
-      format.html { redirect_to protocols_url }
+      format.html { redirect_to root_path }
       format.json { head :no_content }
     end
   end
