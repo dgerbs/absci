@@ -1,7 +1,11 @@
 class PagesController < ApplicationController
   def home
-    @user = current_user
-  # @protocols = @user.protocols.paginate(page: params[:page])
+    if user_signed_in? 
+      @user = current_user
+      @protocols = @user.protocols.paginate(page: params[:page])
+    else
+      @user = current_user
+    end
   end
 
   def about
