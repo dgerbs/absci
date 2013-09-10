@@ -2,6 +2,7 @@
   <%= f.error_notification %>
 
   <%= f.input :statement, :placeholder => "User application statement" %>
+  <%= f.input :research_application, collection: [ "Immunoblot", "Immunohistochemistry", "Immunofluorescence", "Immunoprecipitation", "Other" ], include_blank: false, prompt: "Choose one" %>
   <%= f.input :cell, :placeholder => "Cell or tissue model" %>
   <%= f.input :lysis_buffer, :placeholder => "Lysis buffer" %>
   <%= f.input :gel, as: :float, :placeholder => "Gel percentage" %>

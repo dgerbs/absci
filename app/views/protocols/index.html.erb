@@ -3,6 +3,7 @@
   <thead>
     <tr>
       <th>User Application Statement</th>
+      <th>Research Application</th>
       <th>Cell or Tissue Model</th>
       <th>Description</th>
       <th>Author</th>
@@ -12,6 +13,7 @@
    <% @protocols.each do |protocol| %>
     <tr>
       <td><%= protocol.statement %></td>
+      <td><%= protocol.research_application %></td>
       <td><%= protocol.cell %></td>
       <td><%= protocol.description %></td>
       <td><em><%= protocol.user.name %></em></td>
