@@ -1,20 +1,21 @@
 class Protocol < ActiveRecord::Base
   attr_accessible :blocking_buffer, :cell, :description, :detection, :gel,
   								:lysis_buffer, :membrane, :primary_description, :secondary_description,
-  								:statement, :transfer, :washes
+  								:statement, :research_application, :transfer, :washes
 
-  validates :blocking_buffer, presence: true
-  validates :cell, presence: true
-  validates :description, presence: true
-  validates :detection, presence: true
-  validates :gel, presence: true
-  validates :lysis_buffer, presence: true
-  validates :membrane, presence: true
-  validates :primary_description, presence: true
-  validates :secondary_description, presence: true
-  validates :statement, presence: true
-  validates :transfer, presence: true
-  validates :washes, presence: true
+  validates_presence_of :blocking_buffer
+  validates_presence_of :cell
+  validates_presence_of :description
+  validates_presence_of :detection
+  validates_presence_of :gel
+  validates_presence_of :lysis_buffer
+  validates_presence_of :membrane
+  validates_presence_of :primary_description
+  validates_presence_of :secondary_description
+  validates_presence_of :research_application
+  validates_presence_of :statement
+  validates_presence_of :transfer
+  validates_presence_of :washes
 
   belongs_to :user
   belongs_to :antibody
@@ -23,5 +24,5 @@ class Protocol < ActiveRecord::Base
   validates :user_id, presence: true
 
   #Ensure the presence of an antibody, and that an antibody matches a given protocol
-  #validates :antibody_id, presence: true
+  #validates_presence_of :antibody_id, presence: true
 end
