@@ -38,6 +38,7 @@ GEM
     bootstrap-will_paginate (0.0.6)
       will_paginate
     builder (3.0.4)
+    coderay (1.0.9)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -63,12 +64,17 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    method_source (0.8.2)
     mime-types (1.25)
     multi_json (1.8.0)
     orm_adapter (0.4.0)
     pg (0.16.0)
     pg (0.16.0-x86-mingw32)
     polyglot (0.3.3)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -102,6 +108,7 @@ GEM
     simple_form (2.1.0)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
+    slop (3.4.6)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -138,6 +145,7 @@ DEPENDENCIES
   devise
   jquery-rails
   pg
+  pry
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   simple_form

@@ -1,5 +1,6 @@
 <% if user_signed_in? %>
-	<div class="container-fluid">
+	<%= render :partial => 'pages/users' %>
+	<!-- <div class="container-fluid">
 	  <div class="row-fluid">
 	    <div class="span3">
 	    	<div class="well">
@@ -44,7 +45,7 @@
 	    	</div>
 	  	</div>
 	  </div>
-	</div>
+	</div> -->
 <% else %>
 	<div class="hero-unit">
 		<div class="text-center">
