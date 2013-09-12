@@ -6,8 +6,8 @@
 	    	<br />
 	  	<h5>Description: </h5><%= antibody.description %>
 	   		<br />
-	   	<h4>Approval Rating: <%= antibody.reputation_for(:votes).to_i %></h4>
-	   	<h4>Protocols: </h4>
+	   	<h5>Approval Rating: <%= antibody.reputation_for(:votes).to_i %></h5>
+	   	<h5>Protocols: <%= @antibodies.count %></h5>
 	   </p>
 	   <%= link_to 'Show', antibody %>
 	</div>
@@ -21,8 +21,8 @@
 	    	<br />
 	  	<h5>Description: </h5><%= antibody.description %>
 	   		<br />
-	   	<h4>Approval Rating: <%= antibody.reputation_for(:votes).to_i %></h4>
-	   	<h4>Protocols: </h4>
+	   	<h5>Approval Rating: <%= antibody.reputation_for(:votes).to_i %></h5>
+	   	<h5>Protocols: <%= @antibodies.count %></h5>
 	  </p>
 	</div>
 <% end %>
