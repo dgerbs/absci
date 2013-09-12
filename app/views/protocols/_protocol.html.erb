@@ -4,7 +4,7 @@
     <tr>
       <th>User Application Statement</th>
       <th>Research Application</th>
-      <th>Cell or Tissue Model</th>
+      <th>Summary</th>
     </tr>
   </thead>
 
@@ -13,7 +13,7 @@
     <tr>
       <td><%= protocol.statement %></td>
       <td><%= protocol.research_application %></td>
-      <td><%= protocol.cell %></td>
+      <td><%= protocol.description %></td>
       <td><%= link_to 'Info', protocol, class: "btn btn-info" %></td>
     </tr>
     <% end %>
