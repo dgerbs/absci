@@ -9,7 +9,6 @@
       		<i class="icon-user"></i>
       		<br />
           <br />
-      		<em>Insert image and options here.</em>
       	</p>
     	</div>
       <div class="nav">
@@ -18,7 +17,7 @@
       </div>
     </div>
     <!-- if user is signed in && no protocols are present, render alert for no protocols -->
-		<% if %w[@user.protocols].any? { |protocol| protocol.size > 0 } %>
+		<% if %w[@user.protocols].any? { |protocol| protocol.size == 0 } %>
 			<div class="span8">
 				<div class="row">
 					<div class="span6 offset3">
@@ -41,7 +40,8 @@
 	          <div class="accordion-group">
 	            <div class="accordion-heading">
 	              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-	               <i class="icon-file"></i> My Protocols (<%= current_user.protocols.count %>)
+	               <li class="dropdown">
+	               <p class="my_protocols">My Protocols (<%= current_user.protocols.count %>)<b class="caret"></b></p></li>
 	              </a>
 	            </div>
 	            <div id="collapseOne" class="accordion-body collapse">
@@ -53,11 +53,6 @@
 	            </div>
 	          </div>
 	        </div>
-	      	<p>
-	      		<br />
-	          <br />
-	      		<em>Insert projects and bio here.</em>
-	      	</p>
 	    	</div>
 	  	</div>
   	<% end %>
