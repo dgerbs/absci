@@ -1,10 +1,9 @@
 class Antibody < ActiveRecord::Base
   attr_accessible :description, :product, :target, :vendor
 
-  # validates :description, presence: true
-  validates :product, presence: true
-  validates :target, presence: true
-  validates :vendor, presence: true
+  validates_presence_of :product
+  validates_presence_of :target
+  validates_presence_of :vendor
 
   has_many :protocols, dependent: :destroy
 

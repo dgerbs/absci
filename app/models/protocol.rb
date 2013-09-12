@@ -23,7 +23,4 @@ class Protocol < ActiveRecord::Base
 	# Ensures the presence of a user, and that a user matches with a given protocol
   validates_presence_of :user
   validates_presence_of :antibody
-
-  #Ensure the presence of an antibody, and that an antibody matches a given protocol
-  #validates_presence_of :antibody_id, presence: true
 end

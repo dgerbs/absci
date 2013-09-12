@@ -4,6 +4,7 @@ Absci::Application.routes.draw do
   resources :antibodies do
     member { post :vote }
   end
+  
   resources :protocols
 
   devise_for :users
