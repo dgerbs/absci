@@ -1,5 +1,4 @@
 class Antibody < ActiveRecord::Base
-	attr_reader :description
   attr_accessible :isotype, :product, :target, :vendor
 
   validates_presence_of :product
