@@ -15,7 +15,7 @@ class AntibodiesController < ApplicationController
   def show
     @antibody = Antibody.find(params[:id])
     if user_signed_in? 
-      @protocols = @antibody.protocols.paginate(page: params[:page])
+      @protocols = @antibody.protocols.paginate(page: params[:page]).per_page(5)
     else
       @antibody
     end

@@ -31,6 +31,7 @@
 		</div>
 		<% if @antibody.protocols.any? %>
 			<%= render :partial => 'protocols/protocol' %>
+			<%= will_paginate @protocols %>
 		<% else %>
 			<div class="container-fluid">
 					<div class="text-center">
