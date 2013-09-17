@@ -11,9 +11,14 @@ gem 'activerecord-reputation-system', require: 'reputation_system'
 gem 'table_print'
 gem 'pg'
 
-
 group :development, :test do
-	gem 'pry'
+	gem 'rspec-rails'
+	gem 'pry-rails'
+	gem 'shoulda'
+	gem 'valid_attribute'
+	gem 'capybara'
+	gem 'launchy'
+	gem 'factory_girl_rails'
 end
 
 group :assets do
