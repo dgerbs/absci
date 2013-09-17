@@ -4,7 +4,7 @@
 	  <p class="details">
 	  	<h5>Vendor: </h5><%= antibody.vendor %>
 	    	<br />
-	  	<h5>Description: </h5><%= antibody.description %>
+	  	<h5>Isotype: </h5><%= antibody.isotype %>
 	   		<br />
 	   	<h5>Approval Rating: <%= antibody.reputation_for(:votes).to_i %></h5>
 		 	<h5>Protocols: <%= antibody.protocols.count %></h5>
@@ -19,7 +19,7 @@
 	    	<br />
 	  	<h5>Product: </h5><%= antibody.product %>
 	    	<br />
-	  	<h5>Description: </h5><%= antibody.description %>
+	  	<h5>Isotype: </h5><%= antibody.isotype %>
 	   		<br />
 	   	<h5>Approval Rating: <%= antibody.reputation_for(:votes).to_i %></h5>
 	   	<h5>Protocols: <%= antibody.protocols.count %></h5>
