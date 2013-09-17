@@ -14,7 +14,11 @@ class AntibodiesController < ApplicationController
   # GET /antibodies/1.json
   def show
     @antibody = Antibody.find(params[:id])
-    
+    if user_signed_in? 
+      @protocols = @antibody.protocols.paginate(page: params[:page])
+    else
+      @antibody
+    end
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @antibody }

@@ -22,16 +22,26 @@
 				<%= link_to 'Edit Antibody', edit_antibody_path(@antibody), class: "btn btn-primary" %>
 				<%= link_to 'Destroy Antibody', @antibody, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger" %>
 			</p>
-
-			<br />
-						
+			<br />	
 			<p>
 				<%= pluralize @antibody.reputation_for(:votes).to_i, "rating" %> |
 				<%= link_to "Approve", vote_antibody_path(@antibody, type: "up"), method: "post" %> | 
 				<%= link_to "Disapprove", vote_antibody_path(@antibody, type: "down"), method: "post" %>
 			</p>
 		</div>
-	
+		<% if @antibody.protocols.any? %>
+			<%= render :partial => 'protocols/protocol' %>
+		<% else %>
+			<div class="container-fluid">
+					<div class="text-center">
+						<div class="alert alert-info">
+							<button type="button" class="close" data-dismiss="alert">&times;</button>
+							<strong>No protocols associated with this antibody yet.</strong><br />
+						</div>
+					</div>
+			</div>
+		<% end %>
+ 
 		<%= link_to 'Back', antibodies_path %>
 
 	</div>
