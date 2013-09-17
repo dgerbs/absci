@@ -26,6 +26,7 @@ class ProtocolsController < ApplicationController
   # GET /protocols/new.json
   def new
     @protocol = current_user.protocols.new
+    @antibody = Antibody.find(params[:antibody_id])
 
     respond_to do |format|
       format.html # new.html.erb
@@ -42,6 +43,9 @@ class ProtocolsController < ApplicationController
   # POST /protocols.json
   def create
     @protocol = current_user.protocols.new(params[:protocol])
+    @antibody = Antibody.find(params[:antibody_id])
+
+    @protocol.antibody = @antibody
 
     respond_to do |format|
       if @protocol.save
