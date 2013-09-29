@@ -8,13 +8,13 @@
 
 require 'csv'
 
-CSV.foreach("/documents/absci/antibodies/db/data.csv", headers: true) do |row|
+CSV.foreach("/Users/douggerber/documents/absci/db/antibodies.csv", headers: true) do |row|
 
 	antibodies = {
-		target: row[0],
-		vendor: row[1],
-		product: row[2],
-		isotype: row[3]
+		target: row[0].gsub(/\,/,"").gsub(/\$/,""),
+		vendor: row[1].gsub(/\,/,"").gsub(/\$/,""),
+		product: row[2].gsub(/\,/,"").gsub(/\$/,""),
+		isotype: row[3].gsub(/\,/,"").gsub(/\$/,"")
 	}
 
 	if Antibody.where(antibodies).empty?
