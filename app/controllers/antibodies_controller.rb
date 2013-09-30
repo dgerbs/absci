@@ -1,8 +1,9 @@
 class AntibodiesController < ApplicationController
+  before_filter :authenticate_user!, except: [:index, :show]
   # GET /antibodies
   # GET /antibodies.json
   def index
-    @antibodies = Antibody.page(params[:page]).per_page(8).find_with_reputation(:votes, :all, order: "votes desc")
+    @antibodies = Antibody.page(params[:page]).per_page(20).find_with_reputation(:votes, :all, order: "votes desc")
 
     respond_to do |format|
       format.html # index.html.erb
