@@ -39,7 +39,11 @@ class AntibodiesController < ApplicationController
 
   # GET /antibodies/1/edit
   def edit
-    @antibody = Antibody.find(params[:id])
+    if user_signed_in?
+      @antibody
+    else
+      @antibody
+    end
   end
 
   # POST /antibodies
