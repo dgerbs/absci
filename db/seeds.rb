@@ -8,7 +8,7 @@
 
 require 'csv'
 
-CSV.foreach("/Users/douggerber/documents/absci/db/antibodies.csv", headers: true) do |row|
+CSV.foreach(Rails.root.join("db/antibodies.csv"), headers: true) do |row|
 
 	antibodies = {
 		target: row[0].gsub(/\,/,"").gsub(/\$/,""),
