@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130917231602) do
+ActiveRecord::Schema.define(:version => 20131002180658) do
 
   create_table "antibodies", :force => true do |t|
     t.string   "target"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(:version => 20130917231602) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.string   "isotype"
+    t.string   "antibody"
   end
 
   create_table "protocols", :force => true do |t|

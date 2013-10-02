@@ -1,7 +1,8 @@
 class Antibody < ActiveRecord::Base
-  attr_accessible :isotype, :product, :target, :vendor
+  attr_accessible :isotype, :product, :target, :vendor, :antibody
 
   validates_presence_of :product
+  validates_presence_of :antibody
   validates_presence_of :target
   validates_presence_of :vendor
   validates_presence_of :isotype
