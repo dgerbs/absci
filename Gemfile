@@ -10,6 +10,7 @@ gem 'bootstrap-will_paginate', '0.0.6'
 gem 'activerecord-reputation-system', require: 'reputation_system'
 gem 'table_print'
 gem 'pg'
+gem 'ransack'
 
 group :development, :test do
 	gem 'rspec-rails'

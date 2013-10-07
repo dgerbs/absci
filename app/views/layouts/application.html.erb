@@ -10,12 +10,16 @@
 	</head>
 	<body>
 		<%= render 'layouts/header' %>	
-		<div class="container">
-			<% flash.each do |name, msg| %>
-				<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
-			<% end %>
-			<%= yield %>
-			<%= render 'layouts/footer' %>
-		</div>
+			<div class="row-fluid">
+  			<div class="span12">
+					<div class="container">
+						<% flash.each do |name, msg| %>
+							<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+						<% end %>
+						<%= yield %>
+					</div>
+				</div>
+			</div>
+		<%= render 'layouts/footer' %>
 	</body>
 </html>
