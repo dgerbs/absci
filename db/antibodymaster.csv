@@ -1,0 +1,500 @@
+Target,Antibody,Vendor,Product,Isotype
+p53,p53 (DO-1),SCBT,sc-126,M
+p53,p53 (FL-393),SCBT,sc-6243,R
+p53,p53 (Pab 240),SCBT,sc-99,M
+p53,p53 (Pab 1801),SCBT,sc-98,M
+p53,p53 (Pab 246),SCBT,sc-100,M
+53BP1,53BP1 (H-300),SCBT,sc-22760,R
+A1,A1 (FL-175),SCBT,sc-8351,R
+APC,APC (C-20),SCBT,sc-896,R
+APC,APC (N-15),SCBT,sc-895,R
+AIF,AIF (D-20),SCBT,sc-9416,G
+AIF,AIF (E-1),SCBT,sc-13116,M
+ANP32A,ANP32A (C-18),SCBT,sc-5652,G
+Apaf-1,Apaf-1 (H-324),SCBT,sc-8339,R
+ARC,ARC (H-150),SCBT,sc-11435,R
+Bad,Bad (C-20),SCBT,sc-943,R
+Bad,Bad (C-7),SCBT,sc-8044,M
+Bad,Bad (H-168),SCBT,sc-7869,R
+Bad,Bad (K-17),SCBT,sc-942,R
+Bag-1,Bag-1 (C-16),SCBT,sc-939,R
+Bak,Bak (N-20),SCBT,sc-1035,G
+Bak,Bak (G-23),SCBT,sc-832,R
+Bak,Bak (H-211),SCBT,sc-7873,R
+Bcl-xL,Bcl-xL (H-5),SCBT,sc-8392,M
+Bcl-xL,Bcl-xL (H-62),SCBT,sc-7195,R
+Bcl-xL,Bcl-xL (A-20),SCBT,sc-7122,G
+Bcl-xS/L,Bcl-xS/L (M-125),SCBT,sc-1690,M
+Bcl-xS/L,Bcl-xS/L (S-18),SCBT,sc-634,R
+Bcl-xS/L,Bcl-xS/L (L-19),SCBT,sc-1041,R
+Bcl-2,Bcl-2 (N-19),SCBT,sc-492,R
+Bcl-2,Bcl-2 (C-2),SCBT,sc-7382,M
+Bcl-2,Bcl-2 (100),SCBT,sc-509,M
+Bcl-2,Bcl-2 (C 21),SCBT,sc-783,R
+Bcl-2,Bcl-2 (10C4),SCBT,sc-23960,M
+Bcl10,Bcl10 (H-197),SCBT,sc-5611,R
+Bcl10,Bcl10 (331.3),SCBT,sc-5273,M
+BECN1,BECN1 (D-18),SCBT,sc-10086,G
+BECN1,BECN1 (H-300),SCBT,sc-11427,R
+BID,BID (C-20),SCBT,sc-6358,G
+BID,BID (FL-195),SCBT,sc-11423,R
+Bim,Bim (H-191),SCBT,sc-11425,R
+BRCA1,BRCA1 (D-9),SCBT,sc-6954,M
+BRCA1,BRCA1 (C-20),SCBT,sc-642,R
+c-IAP1,c-IAP1 (H-83),SCBT,sc-7943,R
+c-IAP2,c-IAP2 (H-85),SCBT,sc-7944,R
+caspase-1,caspase-1 (A-19),SCBT,sc-622,R
+Caspase-1 p10,Caspase-1 p10 (C-20),SCBT,sc-515,R
+Caspase-1 p10,Caspase-1 p10 (M-20),SCBT,sc-514,R
+Caspase-2L,Caspase-2L (C-19),SCBT,sc-626,R
+Caspase-2L,Caspase-2L (C-20),SCBT,sc-625,R
+Caspase-3,Caspase-3 (E-8),SCBT,sc-7272,M
+Caspase-3,Caspase-3 (H-277),SCBT,sc-7148,R
+Caspase-3,Caspase-3 (L-18),SCBT,sc-1225,G
+Caspase-3 p11,Caspase-3 p11 (K-19),SCBT,sc-1224,G
+Caspase-3 p20,Caspase-3 p20 (N-19),SCBT,sc-1226,G
+Caspase-8 p18,Caspase-8 p18 (C-20),SCBT,sc-5263,M
+Caspase-8 p18,Caspase-8 p18 (H-134),SCBT,sc-7890,R
+Caspase-8 p18,Caspase-8 p18 (T-16),SCBT,sc-6134,G
+Caspase-9 p10,Caspase-9 p10 (F-7),SCBT,sc-17784,M
+Caspase-9 p10,Caspase-9 p10 (H-83),SCBT,sc-7885,R
+caspase-9 p35,caspase-9 p35 (H-170),SCBT,sc-8355,R
+Clusterin-a,Clusterin-a (C-18),SCBT,sc-6419,G
+Clusterin-a,Clusterin-a (M-18),SCBT,sc-6420,G
+cytochrome c,cytochrome c (6H2),SCBT,sc-13561,M
+cytochrome c,cytochrome c (7H8),SCBT,sc-13560,M
+cytochrome c,cytochrome c (A-8),SCBT,sc-13156,M
+cytochrome c,cytochrome c (C-20),SCBT,sc-8385,G
+cytochrome c,cytochrome c (H-104),SCBT,sc-7159,R
+Daxx,Daxx (M-112),SCBT,sc-7152,R
+DNA-PKcs,DNA-PKcs (C-19),SCBT,sc-1552,G
+DNA-PKcs,DNA-PKcs (G-4),SCBT,sc-5282,M
+DNA-PKcs,DNA-PKcs (H-163),SCBT,sc-9051,R
+FADD,FADD (H-181),SCBT,sc-5559,R
+FADD,FADD (S-18),SCBT,sc-6035,G
+FAS,FAS (A-20),SCBT,sc-1023,R
+FAS,FAS (B-10),SCBT,sc-8009,M
+FAS,FAS (FL-335),SCBT,sc-7886,R
+FAS,FAS (C-20),SCBT,sc-715,R
+FAS,FAS (M-20),SCBT,sc-716,R
+FAS,FAS (N-18),SCBT,sc-714,R
+FAS,FAS (X-20),SCBT,sc-1024,R
+FLIPS/L,FLIPS/L (G-11),SCBT,sc-5276,M
+FLIPS/L,FLIPS/L (H-202),SCBT,sc-8347,R
+GADD 45a,GADD 45a (H-165),SCBT,sc-797,R
+GADD 45a,GADD 45a (C-20),SCBT,sc-792,R
+GADD 153,GADD 153 (B-3),SCBT,sc-7351,M
+GADD 153,GADD 153 (F-168),SCBT,sc-575,R
+GADD 153,GADD 153 (R-20),SCBT,sc-793,R
+Ku-70,Ku-70 (C-19),SCBT,sc-1486,G
+Ku-70,Ku-70 (E-5),SCBT,sc-17789,M
+Ku-70,Ku-70 (H-308),SCBT,sc-9033,R
+Ku-70,Ku-70 (A-9),SCBT,sc-5309,M
+Ku-70,Ku-70 (M-19),SCBT,sc-1487,G
+Ku-86,Ku-86 (B-1),SCBT,sc-5280,M
+Ku-86,Ku-86 (C-20),SCBT,sc-1484,G
+Ku-86,Ku-86 (H-300),SCBT,sc-9034,R
+Ku-86,Ku-86 (M-20),SCBT,sc-1485,G
+Lamin B,Lamin B (M-20),SCBT,sc-6217,G
+Lamin B,Lamin B (C-20),SCBT,sc-6216,G
+Lamin A/C,Lamin A/C (N-18),SCBT,sc-6215,G
+Lamin A/C,Lamin A/C (636),SCBT,sc-7292,M
+Lamin A/C,Lamin A/C (346),SCBT,sc-7293,M
+Mcl-1,Mcl-1 (S-19),SCBT,sc-819,R
+Mcl-1,Mcl-1 (H-260),SCBT,sc-20679,R
+Mcl-1,Mcl-1 (22),SCBT,sc-12756,M
+MDM2,MDM2 (SMP14),SCBT,sc-965,M
+MDM2,MDM2 (C-18),SCBT,sc-812,R
+MDM-2,MDM-2 (N-20),SCBT,sc-813,R
+MDM2,MDM2 (D-12),SCBT,sc-5304,M
+MDM2,MDM2 (H-221),SCBT,sc-7918,R
+Menin,Menin (H-300),SCBT,sc-8200,R
+MLH1,MLH1 (C-20),SCBT,sc-582,R
+MSH2,MSH2 (N-20),SCBT,sc-494,R
+NBK,NBK (N-19),SCBT,sc-1710,G
+Neurofibromin,Neurofibromin (D),SCBT,sc-67,R
+Neurofibromin,Neurofibromin (N),SCBT,sc-68,R
+NF2,NF2 (A-19),SCBT,sc-331,R
+NF2,NF2 (C-18),SCBT,sc-332,R
+p107,p107 (SD9),SCBT,sc-250,M
+p107,p107 (C-18),SCBT,sc-318,G
+p63,p63 (H-137),SCBT,sc-8343,R
+p63a,p63a (H-129),SCBT,sc-8344,R
+N p63,N p63 (N-16),SCBT,sc-8609,G
+p73,p73 (H-79),SCBT,sc-7957,R
+p73a,p73a (C-17),SCBT,sc-7238,G
+PAR4,PAR4 (R-334),SCBT,sc-1807,R
+PAR4,PAR4 (A-10),SCBT,sc-1666,M
+PEA3,PEA3 (16),SCBT,sc-113,M
+PMS2,PMS2 (C-20),SCBT,sc-618,R
+PTEN,PTEN (A2B1),SCBT,sc-7974,M
+PTEN,PTEN (FL-403),SCBT,sc-9145,R
+PTEN,PTEN (N-19),SCBT,sc-6818,G
+PUMAa,PUMAa (N-19),SCBT,sc-19187,G
+Rad9,Rad9 (M-389),SCBT,sc-8324,R
+Rad17,Rad17 (H-300),SCBT,sc-5613,R
+Rad51,Rad51 (H-92),SCBT,sc-8349,R
+Rad52,Rad52 (H-300),SCBT,sc-8350,R
+Rb,Rb (C-15),SCBT,sc-509,R
+Rb,Rb (M-153),SCBT,sc-7905,R
+Rb,Rb (IF8),SCBT,sc-102,M
+SIAH-1,SIAH-1 (N-15),SCBT,sc-5505,G
+survivin,survivin (D-8),SCBT,sc-17779,M
+survivin,survivin (FL-142),SCBT,sc-10811,R
+TIA-1,TIA-1 (C-20),SCBT,sc-1751,G
+TRADD,TRADD (C-20),SCBT,sc-1163,G
+TRADD,TRADD (H-278),SCBT,sc-7868,R
+TRAIL,TRAIL (H-257),SCBT,sc-7877,R
+TRAIL,TRAIL (K-18),SCBT,sc-6079,G
+tsg 101,tsg 101 (C-2),SCBT,sc-7964,M
+tuberin,tuberin (C-20),SCBT,sc-893,R
+VHL,VHL (FL-181),SCBT,sc-5575,R
+XRCC1,XRCC1 (H-300),SCBT,sc-11439,R
+Cdc2 p34,Cdc2 p34 (17),SCBT,sc-54,M
+Cdc2 p34,Cdc2 p34 (C-19),SCBT,sc-954,R
+Cdc2 p34,Cdc2 p34 (H-297),SCBT,sc-747,R
+Cdc2 p34,Cdc2 p34 (PSTAIRE),SCBT,sc-53,R
+Cdc2 p34,Cdc2 p34 (B-6),SCBT,sc-8395,M
+cdc6,cdc6 (H-304),SCBT,sc-8341,R
+cdc6,cdc6 (180.2),SCBT,sc-9964,M
+Cdc35A,Cdc35A (M-191),SCBT,sc-7157,R
+Cdc25A,Cdc25A (F-6),SCBT,sc-7389,M
+Cdc25A,Cdc25A (144),SCBT,sc-97,R
+Cdc25B,Cdc25B (C-20),SCBT,sc-326,R
+Cdc25C,Cdc25C (H-6),SCBT,sc-13138,M
+Cdc25C,Cdc25C (C-20),SCBT,sc-327,R
+Cdc27,Cdc27 (AF3.1),SCBT,sc-9972,M
+Cdc42,Cdc42 (B-8),SCBT,sc-8401,M
+Cdc42,Cdc42 (P1),SCBT,sc-87,R
+Cdk2,Cdk2 (D-12),SCBT,sc-6248,M
+Cdk2,Cdk2 (H-298),SCBT,sc-748,R
+Cdk2,Cdk2 (M2),SCBT,sc-163,R
+Cdk4,Cdk4 (C-22),SCBT,sc-260,R
+Cdk4,Cdk4 (DCS-35),SCBT,sc-23896,M
+Cdk4,Cdk4 (H-22),SCBT,sc-601,R
+Cdk4,Cdk4 (H-303),SCBT,sc-749,R
+Cdk5,Cdk5 (C-8),SCBT,sc-173,R
+Cdk5,Cdk5 (J-3),SCBT,sc-6247,M
+Cdk5,Cdk5 (DC 17),SCBT,sc-249,M
+Cdk6,Cdk6 (C-21),SCBT,sc-177,R
+Cdk6,Cdk6 (B-10),SCBT,sc-7961,M
+Cdk6,Cdk6 (H-230),SCBT,sc-7181,R
+Cdk7,Cdk7 (C-19),SCBT,sc-529,R
+Cdk7,Cdk7 (C-4),SCBT,sc-7344,M
+Cdk8,Cdk8 (C-19),SCBT,sc-1521,G
+Cdk9,Cdk9 (C-20),SCBT,sc-484,R
+Cdk9,Cdk9 (H-169),SCBT,sc-8338,R
+Cdk9,Cdk9 (D-7),SCBT,sc-13130,M
+p14 ARF,p14 ARF (C-18),SCBT,sc-8613,G
+p14 ARF,p14 ARF (H-132),SCBT,sc-8340,R
+p16,p16 (F-12),SCBT,sc-1661,M
+p16,p16 (C-20),SCBT,sc-468,R
+p16,p16 (50.1),SCBT,sc-9968,M
+p16,p16 (H-156),SCBT,sc-759,R
+p16,p16 (JC8),SCBT,sc-56330,M
+p16,p16 (M-156),SCBT,sc-1207,R
+p16,p16 (N-20),SCBT,sc-467,R
+p19 ARF,p19 ARF (5-C3-1),SCBT,sc-32748,R
+Cdt1,Cdt1 (H-300),SCBT,sc-28262,R
+Chk1,Chk1 (FL-476),SCBT,sc-7898,R
+Chk1,Chk1 (G-4),SCBT,sc-8408,M
+Chk2,Chk2 (A-11),SCBT,sc-17747,M
+Chk2,Chk2 (A-12),SCBT,sc-5278,M
+Chk2,Chk2 (B-4),SCBT,sc-17748,M
+Chk2,Chk2 (H-300),SCBT,sc-9064,R
+Clb1,Clb1 (Ys-19),SCBT,sc-9071,R
+CUL-1,CUL-1 (H-213),SCBT,sc-11384,R
+cyclin A,cyclin A (H-432),SCBT,sc-751,R
+cyclin A,cyclin A (C-19),SCBT,sc-596,R
+cyclin A,cyclin A (BF683),SCBT,sc-239,M
+cyclin B1,cyclin B1 (GNS1),sCBT,sc-245,M
+cyclin B1,cyclin B1 (H-433),sCBT,sc-752,R
+cyclin B1,cyclin B1 (D-11),sCBT,sc-7393,M
+cyclin B1,cyclin B1 (H-20),sCBT,sc-594,R
+cyclin B1,cyclin B1 (M-20),sCBT,sc-595,R
+cyclin D1,cyclin D1 (H-295),sCBT,sc-753,R
+cyclin D1,cyclin D1 (DCS-6),sCBT,sc-20044,M
+cyclin D1,cyclin D1 (M-20),sCBT,sc-718,R
+cyclin D1,cyclin D1 (A-12),sCBT,sc-8396,M
+cyclin D1,cyclin D1 (72-13G),sCBT,sc-450,M
+cyclin D1,cyclin D1 (C-20),sCBT,sc-717,R
+cyclin D1,cyclin D1 (HD11),sCBT,sc-246,M
+cyclin D2,cyclin D2 (M-20),sCBT,sc-593,R
+cyclin D2,cyclin D2 (C-17),sCBT,sc-181,R
+cyclin D2,cyclin D2 (34B1-3),sCBT,sc-452,Rat
+cyclin D2,cyclin D2 (H-289),sCBT,sc-754,R
+cyclin D3,cyclin D3 (C-16),sCBT,sc-182,R
+cyclin D3,cyclin D3 (D-7),sCBT,sc-6283,M
+cyclin D3,cyclin D3 (18B6-10),sCBT,sc-453,Rat
+cyclin E,cyclin E (M-20),sCBT,sc-481,R
+cyclin E,cyclin E (HE12),sCBT,sc-247,M
+cyclin E,cyclin E (C-19),sCBT,sc-198,R
+cyclin E,cyclin E (HE111),sCBT,sc-248,M
+cyclin H,cyclin H (C-18),sCBT,sc-609,R
+cyclin H,cyclin H (FL-323),sCBT,sc-855,R
+cyclin T1,cyclin T1 (H-245),sCBT,sc-10750,R
+cyclin T1,cyclin T1 (T-18),sCBT,sc-8127,G
+Geminin,Geminin (FL-209),sCBT,sc-13015,R
+Ki-67,Ki-67 (M-19),sCBT,sc-7846,G
+Ki-67,Ki-67 (H-300),sCBT,sc-15402,R
+Ki-67,Ki-67 (C-20),sCBT,sc-7844,G
+Mat1,Mat1 (FL-309),sCBT,sc-6234,R
+MCM2,MCM2 (N-19),sCBT,sc-9839,G
+MCM3,MCM3 (N-19),sCBT,sc-9850,G
+MCM6,MCM6 (C-20),sCBT,sc-9843,G
+MCM7,MCM7 (141.2),sCBT,sc-9966,M
+MKLP-1,MKLP-1 (N-19),sCBT,sc-867,R
+p15,p15 (C-20),sCBT,sc-612,R
+p15,p15 (K-18),sCBT,sc-6134,R
+p15,p15 (M-20),sCBT,sc-1429,G
+p18,p18 (M-168),sCBT,sc-1208,R
+p18,p18 (N-20),sCBT,sc-865,R
+p18,p18 (118.2),SCBT,sc-9965,M
+p19,p19 (M-167),SCBT,sc-1063,R
+p21,p21 (C-19),SCBT,sc-397,R
+p21,p21 (H-164),SCBT,sc-756,R
+p21,p21 (F-5),SCBT,sc-6246,M
+p21,p21 (M-19),SCBT,sc-471,R
+p21,p21 (187),SCBT,sc-817,M
+p21,p21 (N-20),SCBT,sc-469,R
+p27,p27 (C-19),SCBT,sc-528,R
+p27,p27 (F-8),SCBT,sc-1641,M
+p27,p27 (M-197),SCBT,sc-776,R
+p27,p27 (N-20),SCBT,sc-527,R
+p35,p35 (C-19),SCBT,sc-820,R
+p35,p35 (N-20),SCBT,sc-821,R
+p55 CDC,p55 CDC (E-7),SCBT,sc-13162,M
+p55 CDC,p55 CDC (H-175),SCBT,sc-8358,R
+p55 CDC,p55 CDC (H-7),SCBT,sc-5296,M
+p57,p57 (C-20),SCBT,sc-1040,R
+p57,p57 (H-91),SCBT,sc-8298,R
+p57,p57 (M-20),SCBT,sc-1039,G
+PCNA,PCNA (F-2),SCBT,sc-25280,M
+PCNA,PCNA (FL-261),SCBT,sc-7907,R
+PCNA,PCNA (C-20),SCBT, sc-9857,G
+PCNA,PCNA (PC10),SCBT,sc-56,M
+Prohibitin,Prohibitin (H-80),SCBT,sc-28259,R
+R2,R2 (E-16),SCBT,sc-10846,G
+Skp1 p19,Skp1 p19 (H-163),SCBT,sc-7163,R
+Skp2 p45,Skp2 p45 (H-435),SCBT,sc-7164,R
+Skp2 p45,Skp2 p45 (N-19),SCBT,sc-1567,G
+Bob 1,Bob 1 (C-20),SCBT,sc-955,R
+Brn-2,Brn-2 (C-20),SCBT,sc-6029,G
+Brn-3,Brn-3 (C-13),SCBT,sc-6026,G
+Brn-3a,Brn-3a (14A6),SCBT,sc-8429,M
+Brn-3a,Brn-3a (C-20),SCBT, sc-31984,G
+HoxA10,HoxA10 (A-20),SCBT,sc-17159,G
+Meis1/2,Meis1/2 (C-17),SCBT,sc-10599,G
+Msx-2,Msx-2 (M-70),SCBT,sc-15396,R
+Nanog,Nanog (H-155),SCBT,sc-33759,R
+Nanog,Nanog (M-149),SCBT,sc-33760,R
+Nkx-2.5,Nkx-2.5 (H-114),SCBT,sc-14033,R
+Nkx-2.5,Nkx-2.5 (N-19),SCBT,sc-8697,G
+Oct-1,Oct-1 (C-21),SCBT,sc-232,R
+Oct-1,Oct-1 (12F11),SCBT,sc-8024,M
+Oct-2,Oct-2 (C-20),SCBT,sc-233,R
+Oct-3/4,Oct-3/4 (C-10),SCBT,sc-5279,M
+Oct-3/4,Oct-3/4 (C-20),SCBT,sc-8629,G
+Oct-3/4,Oct-3/4 (H-134),SCBT,sc-9081,R
+Oct-3/4,Oct-3/4 (N-19),SCBT,sc-8628,G
+Pax-5,Pax-5 (C-20),SCBT,sc-1974,G
+Pax-5,Pax-5 (A-11),SCBT,sc-13146,M
+Pax-6,Pax-6 (C-20),SCBT,sc-7750,G
+Pax-6,Pax-6 (H-295),SCBT,sc-11357,R
+Pax-3/7,Pax-3/7 (C-20),SCBT,sc-7748,G
+Pbx 1,Pbx 1 (P-20),SCBT,sc-889,R
+Pbx 1/2/3,Pbx 1/2/3 (C-20),SCBT,sc-888,R
+PDX-1,PDX-1 (A-17),SCBT,sc-14664,G
+PDX-1,PDX-1 (N-18),SCBT,sc-14662,G
+Pit-1,Pit-1 (X-7),SCBT,sc-442,R
+PREP-1,PREP-1 (N-15),SCBT,sc-6245,R
+TGIF,TGIF (H-1),SCBT,sc-17800,M
+TGIF,TGIF (H-172),SCBT,sc-9084,R
+A20,A20 (A-12),SCBT,sc-166692,M
+AP-2?,AP-2? (3B5),SCBT,sc-12726,M
+AP-2?,AP-2? (C-18),SCBT,sc-184,R
+AP-2?,AP-2? (H-79),SCBT,sc-8975,R
+AP-2?,AP-2? (H-87),SCBT,sc-8976,R
+AP-2?,AP-2? (6E4/4),SCBT,sc-12762,M
+AP-2?,AP-2? (H-77),SCBT,sc-8977,R
+AFX1,AFX1 (N-19),SCBT,sc-5221,G
+ATF-1,ATF-1 (25C10G),SCBT,sc-270,M
+ATF-1,ATF-1 (C41-5.1),SCBT,sc-243,M
+ATF-1,ATF-1 (FI-1),SCBT,sc-241,M
+ATF-2,ATF-2 (C-19),SCBT,sc-187,R
+ATF-2,ATF-2 (N-96),SCBT,sc-6233,R
+ATF-2,ATF-2 (F2BR-1),SCBT,sc-242,M
+ATF-3,ATF-3 (C-19),SCBT,sc-188,R
+ATF-6?,ATF-6? (H-280),SCBT,sc-22799,R
+ATRX,ATRX (H-300),SCBT,sc-15408,R
+B-Myb,B-Myb (C-20),SCBT,sc-725,R
+B-Myb,B-Myb (H-115),SCBT,sc-13028,R
+B-Myb,B-Myb (N-19),SCBT,sc-724,R
+B23,B23 (FC-8791),SCBT,sc-32256,M
+B23,B23 (H-106),SCBT,sc-5564,R
+BACH1,BACH1 (C-20),SCBT,sc-14700,G
+BAF155,BAF155 (H-76),SCBT,sc-10756,R
+BAF170,BAF170 (H-116),SCBT,sc-10757,R
+Bcl-6,Bcl-6 (D-8),SCBT,sc-7388,M
+Bcl-6,Bcl-6 (N-3),SCBT,sc-858,R
+Bcl-6,Bcl-6 (C-19),SCBT,sc-368,R
+Blimp-1,Blimp-1 (6D3),SCBT,sc-47732,Rat
+BLM,BLM (C-18),SCBT,sc-7790,G
+Bmi-1,Bmi-1 (C-20),SCBT,sc-8906,G
+Bmi-1,Bmi-1 (H-99),SCBT,sc-10745,R
+Brg-1,Brg-1 (G-7),SCBT,sc-17796,M
+Brg-1,Brg-1 (N-15),SCBT,sc-8749,G
+Brg-1,Brg-1 (H-88),SCBT,sc-10768,R
+Brm,Brm (N-19),SCBT,sc-6450,G
+BTEB2,BTEB2 (H-300),SCBT,sc-22797,R
+C/EBP ?,C/EBP ? (C-18),SCBT,sc-9314,G
+C/EBP ?,C/EBP ? (14AA),SCBT,sc-61,R
+C/EBP ?,C/EBP ? (N-19),SCBT,sc-9315,G
+C/EBP ?,C/EBP ? (? 198),SCBT,sc-746,R
+C/EBP ?,C/EBP ? (H-7),SCBT,sc-7962,M
+C/EBP ?,C/EBP ? (C-19),SCBT,sc-150,R
+C/EBP ?,C/EBP ? (C-22),SCBT,sc-151,R
+C/EBP ?,C/EBP ? (M-17),SCBT,sc-636,R
+C/EBP ?,C/EBP ? (C-22),SCBT,sc-158,R
+c-Fos,c-Fos (4),SCBT,sc-52,R
+c-Fos,c-Fos (4-10G),SCBT,sc-413,M
+c-Fos,c-Fos (H-125),SCBT,sc-7202,R
+c-Fos,c-Fos (D-1),SCBT,sc-8047,M
+c-Fos,c-Fos (K-25),SCBT,sc-253,R
+c-Jun,c-Jun (D),SCBT,sc-44,R
+c-Jun,c-Jun (G-4),SCBT,sc-74543,M
+c-Jun,c-Jun (H-79),SCBT,sc-1694,R
+c-Jun,c-Jun (N),SCBT,sc-45,R
+c-Myb,c-Myb (C-19),SCBT,sc-517,R
+c-Myb,c-Myb (H-141),SCBT,sc-7874,R
+c-Myc,c-Myc (9E10),SCBT,sc-40,M
+c-Myc,c-Myc (A-14),SCBT,sc-789,R
+c-Myc,c-Myc (C-19),SCBT,sc-788,R
+c-Myc,c-Myc (C-33),SCBT,sc-42,M
+c-Myc,c-Myc (9E11),SCBT,sc-47694,M
+c-Myc,c-Myc (C-8),SCBT,sc-41,M
+c-Myc,c-Myc (N-262),SCBT,sc-764,R
+c-Fos,c-Fos (6-2H-2F),SCBT,sc-447,M
+Fos B,Fos B (102),SCBT,sc-48,R
+Fos B,Fos B (H-75),SCBT,sc-7203,R
+c-Rel,c-Rel (C),SCBT,sc-71,R
+c-Rel,c-Rel (N-466),SCBT,sc-272,R
+c-Rel,c-Rel (N),SCBT,sc-70,R
+c-Rel,c-Rel (B-6),SCBT,sc-6955,M
+C23,C23 (H-250),SCBT,sc-13057,R
+C23,C23 (MS-3),SCBT,sc-8031,M
+CDP,CDP (C-20),SCBT,sc-6327,G
+CDP,CDP (M-222),SCBT,sc-13024,R
+ChREBP,ChREBP (P-13),SCBT,sc-21189,G
+CIITA,CIITA (7-1H),SCBT,sc-13556,M
+CLIM-2,CLIM-2 (N-18),SCBT,sc-11198,G
+Clock,Clock (H-276),SCBT,sc-25361,R
+Clock,Clock (S-19),SCBT,sc-6927,G
+CREB-1,CREB-1 (X-12),SCBT,sc-240,M
+CREB-1,CREB-1 (H-74),SCBT,sc-25785,R
+CREB-1,CREB-1 (C-21),SCBT,sc-186,R
+CREB-1,CREB-1 (240),SCBT,sc-58,R
+CREB-1,CREB-1 (24H4B),SCBT,sc-271,M
+CREB-2,CREB-2 (H-290),SCBT,sc-22800,R
+CREB-2,CREB-2 (C-20),SCBT,sc-200,R
+CBP,CBP (C-20),SCBT,sc-583,R
+CBP,CBP (C-1),SCBT,sc-7300,M
+CBP,CBP (451),SCBT,sc-1211,R
+CBP,CBP (A-22),SCBT,sc-369,R
+CREM,CREM (X-12),SCBT,sc-440,R
+CRSP77,CRSP77 (G-17),SCBT,sc-12453 ,G
+CtBP,CtBP (H-440),SCBT,sc-11390,R
+CtBP,CtBP (E-12),SCBT,sc-17759,M
+CTCF,CTCF (N-17),SCBT,sc-5916,G
+CTCF,CTCF (C-20),SCBT,sc-15914,G
+CUG-BP1,CUG-BP1 (3B1),SCBT,sc-20003,M
+Dicer,Dicer (H-212),SCBT,sc-30226,R
+DP-1,DP-1 (K-20),SCBT,sc-610,R
+DP-2,DP-2 (C-20),SCBT,sc-829,R
+DNA pol ?,DNA pol ? (G-16),SCBT,sc-5921,G
+DNA pol ? cat,DNA pol ? cat (C-20),SCBT,sc-8797,G
+Dnmt1,Dnmt1 (H-300),SCBT,sc-20701,R
+Dnmt1,Dnmt1 (K-18),SCBT,sc-10221,G
+Dnmt1,Dnmt1 (C-17),SCBT,sc-10222,G
+Dnmt1,Dnmt1 (N-16),SCBT,sc-10219,G
+Dnmt3a,Dnmt3a (H-295),SCBT,sc-20703,R
+Dnmt3a,Dnmt3a (P-16),SCBT,sc-10231,G
+Dnmt3b,Dnmt3b (N-19),SCBT,sc-10235,G
+Dnmt3b,Dnmt3b (T-16),SCBT,sc-10236,G
+Dnmt3b,Dnmt3b (H-230),SCBT,sc-20704,R
+DP-1,DP-1 (K-20),SCBT,sc-610,R
+E2A,E2A (H-208),SCBT,sc-762,R
+E2A,E2A (N-649),SCBT,sc-763,R
+E2A,E2A (V-18),SCBT,sc-349,R
+E2A,E2A (Yae),SCBT,sc-416,M
+E2F-1,E2F-1 (C-20),SCBT,sc-193,R
+E2F-1,E2F-1 (H-137),SCBT,sc-22820,R
+E2F-1,E2F-1 (KH95),SCBT,sc-251,M
+E2F-2,E2F-2 (C-20),SCBT,sc-633,R
+E2F-2,E2F-2 (L-20),SCBT,sc-632,R
+E2F-3,E2F-3 (N-20),SCBT,sc-879,R
+E2F-3,E2F-3 (C-18),SCBT,sc-878,R
+E2F-4,E2F-4 (A-20),SCBT,sc-1082,R
+E2F-4,E2F-4 (C-108),SCBT,sc-512,R
+E2F-4,E2F-4 (C-20),SCBT,sc-866,R
+Egr-1,Egr-1 (588),SCBT,sc-110,R
+Egr-1,Egr-1 (C-19),SCBT,sc-189,R
+Egr-3,Egr-3 (C-24),SCBT,sc-191,R
+Elf-1,Elf-1 (C-20),SCBT,sc-631,R
+Elk-1,Elk-1 (I-20),SCBT,sc-355,R
+ERCC1,ERCC1 (D-10),SCBT,sc-17809,M
+ERCC1,ERCC1 (FL-297),SCBT,sc-10785,R
+Erg-1/2/3,Erg-1/2/3 (C-17),SCBT,sc-354,R
+Erg-1/2/3,Erg-1/2/3 (C-20),SCBT,sc-353,R
+ERM,ERM (H-100),SCBT,sc-22807,R
+ETO,ETO (C-20),SCBT,sc-9737,G
+Ets-1,Ets-1 (C-4),SCBT,sc-55581,M
+Ets-1,Ets-1 (N-276),SCBT,sc-111,R
+Ets-1,Ets-1 (C-20),SCBT,sc-350,R
+Ets-1/Ets-2,Ets-1/Ets-2 (C-275),SCBT,sc-112,R
+Ets-2,Ets-2 (C-20),SCBT,sc-351,R
+Ets-2,Ets-2 (H-140),SCBT,sc-22803,R
+Fibrillarin,Fibrillarin (H-140),SCBT,sc-25397,R
+Fli-1,Fli-1 (C-19),SCBT,sc-356,R
+FOG,FOG (M-20),SCBT,sc-9361,G
+FOG-2,FOG-2 (M-247),SCBT,sc-10755,R
+FOXM1,FOXM1 (C-20),SCBT,sc-502,R
+FOXM1,FOXM1 (K-19),SCBT,sc-500,R
+Fra-1,Fra-1 (N-17),SCBT,sc-183,R
+Fra-1,Fra-1 (C-12),SCBT,sc-28310,M
+Fra-1,Fra-1 (R-20),SCBT,sc-605,R
+Fra-2,Fra-2 (L-15),SCBT,sc-171,R
+Fra-2,Fra-2 (Q-20),SCBT,sc-604,R
+GABP-?,GABP-? (H-180),SCBT,sc-22810,R
+GATA-1,GATA-1 (C-20),SCBT,sc-1233,G
+GATA-1,GATA-1 (M-20),SCBT,sc-1234,G
+GATA-1,GATA-1 (H-200),SCBT,sc-13053,R
+GATA-1,GATA-1 (N1),SCBT,sc-266,Rat
+GATA-1,GATA-1 (N6),SCBT,sc-265,Rat
+GATA-2,GATA-2 (CG2-96),SCBT,sc-267,M
+GATA-2,GATA-2 (H-116),SCBT,sc-9008,R
+GATA-2/3,GATA-2/3 (C-20),SCBT,sc-1235,G
+GATA-3,GATA-3 (HG3-31),SCBT,sc-268,M
+GATA-3,GATA-3 (H-48),SCBT,sc-9009,R
+GATA-3,GATA-3 (HG3-35),SCBT,sc-269,M
+GATA-4,GATA-4 (C-20),SCBT,sc-1237,G
+GATA-4,GATA-4 (G-4),SCBT,sc-25310,M
+GATA-4,GATA-4 (H-112),SCBT,sc-9053,R
+GATA-6,GATA-6 (C-20),SCBT,sc-7244,G
+GATA-6,GATA-6 (H-92),SCBT,sc-9055,R
+GCN5,GCN5 (H-75),SCBT,sc-20698,R
+GCN5,GCN5 (N-18),SCBT, sc-6303,G
+Gfi-1,Gfi-1 (N-20),SCBT,sc-8558,G
+Gfi-1B,Gfi-1B (D-19),SCBT,sc-8559,G
+GKLF,GKLF (H-180),SCBT,sc-20691,R
+GKLF,GKLF (T-16),SCBT,sc-12538,G
+GLI-1,GLI-1 (H-300),SCBT,sc-20687,R
+GLI-1,GLI-1 (C-18),SCBT,sc-6152,G
+GLI-2,GLI-2 (C-10),SCBT,sc-271786,M
+GLI-2,GLI-2 (G-20),SCBT,sc-20291,G
+GLI-2,GLI-2 (H-300),SCBT,sc-28674,R
+GLI-2,GLI-2 (N-20),SCBT,sc-20290,G
+GLI-3,GLI-3 (H-280),SCBT,sc-20688,R
+GLI-3,GLI-3 (N-19),SCBT,sc-6155,G
+HDAC1,HDAC1 (10E2),SCBT,sc-81598,M
+HDAC1,HDAC1 (C-19),SCBT,sc-6298,Gli

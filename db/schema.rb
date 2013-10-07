@@ -14,33 +14,33 @@
 ActiveRecord::Schema.define(:version => 20131002180658) do
 
   create_table "antibodies", :force => true do |t|
-    t.string   "target",     null: false
-    t.string   "vendor",     null: false
-    t.string   "product",    null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string   "isotype",    null: false
-    t.string   "antibody",   null: false
+    t.string   "target",     :null => false
+    t.string   "vendor",     :null => false
+    t.string   "product",    :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.string   "isotype",    :null => false
+    t.string   "antibody",   :null => false
   end
 
   create_table "protocols", :force => true do |t|
     t.string   "description"
-    t.string   "statement",             null: false
-    t.string   "cell",                  null: false
-    t.string   "lysis_buffer",          null: false
-    t.float    "gel",                   null: false
-    t.string   "membrane",              null: false
-    t.string   "transfer",              null: false
-    t.string   "blocking_buffer",       null: false
-    t.string   "primary_description",   null: false
-    t.string   "secondary_description", null: false
-    t.string   "washes",                null: false
-    t.string   "detection",             null: false
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
-    t.integer  "user_id",               null: false
-    t.string   "research_application",  null: false
-    t.integer  "antibody_id",           null: false
+    t.string   "statement"
+    t.string   "cell"
+    t.string   "lysis_buffer"
+    t.float    "gel"
+    t.string   "membrane"
+    t.string   "transfer"
+    t.string   "blocking_buffer"
+    t.string   "primary_description"
+    t.string   "secondary_description"
+    t.string   "washes"
+    t.string   "detection"
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
+    t.integer  "user_id",               :null => false
+    t.string   "research_application"
+    t.integer  "antibody_id",           :null => false
   end
 
   add_index "protocols", ["user_id"], :name => "index_protocols_on_user_id"
@@ -52,8 +52,8 @@ ActiveRecord::Schema.define(:version => 20131002180658) do
     t.integer  "target_id"
     t.string   "target_type"
     t.float    "value",           :default => 0.0
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",                       :null => false
+    t.datetime "updated_at",                       :null => false
   end
 
   add_index "rs_evaluations", ["reputation_name", "source_id", "source_type", "target_id", "target_type"], :name => "index_rs_evaluations_on_reputation_name_and_source_and_target", :unique => true
@@ -66,8 +66,8 @@ ActiveRecord::Schema.define(:version => 20131002180658) do
     t.string   "sender_type"
     t.integer  "receiver_id"
     t.float    "weight",      :default => 1.0
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
   end
 
   add_index "rs_reputation_messages", ["receiver_id", "sender_id", "sender_type"], :name => "index_rs_reputation_messages_on_receiver_id_and_sender", :unique => true
@@ -81,8 +81,8 @@ ActiveRecord::Schema.define(:version => 20131002180658) do
     t.integer  "target_id"
     t.string   "target_type"
     t.boolean  "active",          :default => true
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
   end
 
   add_index "rs_reputations", ["reputation_name", "target_id", "target_type"], :name => "index_rs_reputations_on_reputation_name_and_target", :unique => true
@@ -100,8 +100,8 @@ ActiveRecord::Schema.define(:version => 20131002180658) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.datetime "created_at",                             :null => false
+    t.datetime "updated_at",                             :null => false
     t.string   "name"
   end
 

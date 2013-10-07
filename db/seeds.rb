@@ -8,13 +8,14 @@
 
 require 'csv'
 
-CSV.foreach(Rails.root.join("db/antibodies.csv"), headers: true) do |row|
+CSV.foreach(Rails.root.join("db/antibodymaster.csv"), headers: true) do |row|
 
 	antibodies = {
 		target: row[0].gsub(/\,/,"").gsub(/\$/,""),
-		vendor: row[1].gsub(/\,/,"").gsub(/\$/,""),
-		product: row[2].gsub(/\,/,"").gsub(/\$/,""),
-		isotype: row[3].gsub(/\,/,"").gsub(/\$/,"")
+    antibody: row[1].gsub(/\,/,"").gsub(/\$/,""),
+		vendor: row[2].gsub(/\,/,"").gsub(/\$/,""),
+		product: row[3].gsub(/\,/,"").gsub(/\$/,""),
+		isotype: row[4].gsub(/\,/,"").gsub(/\$/,"")
 	}
 
 	if Antibody.where(antibodies).empty?
