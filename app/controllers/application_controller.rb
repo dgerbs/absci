@@ -6,5 +6,6 @@ class ApplicationController < ActionController::Base
   
   def set_search
     @search = Antibody.search(params[:q])
+    @antibodies = @search.result
   end
 end
