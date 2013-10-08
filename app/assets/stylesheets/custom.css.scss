@@ -7,6 +7,14 @@ form {
     margin: 0;
 }
 
+.navbar .nav li a:hover {
+    color: $blue;
+}
+
+.navbar .dropdown-menu li a:hover {
+    color: $white;
+}
+
 .container .brand {
 	color: $blue;
 }
