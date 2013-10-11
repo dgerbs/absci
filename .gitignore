@@ -19,3 +19,4 @@ doc/
 .project
 .DS_store
 .idea
+/.env
