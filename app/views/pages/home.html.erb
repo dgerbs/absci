@@ -15,8 +15,25 @@
       <div class="span4 offset4">
         <div class="span12">
           <div class="span6">
-            <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-large btn-block btn-success" %>
+            <a data-toggle="modal" href="#myModal" class="btn btn-large btn-block btn-success">Sign Up</a>
           </div>
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h3 class="modal-title">Sign Up</h3>
+                </div>
+                <div class="modal-body">
+                  <%= 'new user registration' %>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
           <div class="span6">
             <%= link_to "Search Antibodies", antibodies_path, class: "btn btn-large btn-block btn-info" %>
           </div>
