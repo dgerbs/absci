@@ -1,46 +1,38 @@
 class ProtocolsController < ApplicationController
   before_filter :authenticate_user!, except: [:index]
-  # GET /protocols
-  # GET /protocols.json
+
   def index
     @protocols = Protocol.order("created_at desc").page(params[:page]).per_page(4)
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html
       format.json { render json: @protocols }
     end
   end
 
-  # GET /protocols/1
-  # GET /protocols/1.json
   def show
     @protocol = Protocol.find(params[:id])
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html
       format.json { render json: @protocol }
     end
   end
 
-  # GET /protocols/new
-  # GET /protocols/new.json
   def new
     @protocol = current_user.protocols.new
     @antibody = Antibody.find(params[:antibody_id])
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html
       format.json { render json: @protocol }
     end
   end
 
-  # GET /protocols/1/edit
   def edit
     @protocol = current_user.protocols.find(params[:id])
   end
 
-  # POST /protocols
-  # POST /protocols.json
   def create
     @protocol = current_user.protocols.new(params[:protocol])
     @antibody = Antibody.find(params[:antibody_id])
@@ -58,8 +50,6 @@ class ProtocolsController < ApplicationController
     end
   end
 
-  # PUT /protocols/1
-  # PUT /protocols/1.json
   def update
     @protocol = current_user.protocols.find(params[:id])
 
@@ -74,8 +64,6 @@ class ProtocolsController < ApplicationController
     end
   end
 
-  # DELETE /protocols/1
-  # DELETE /protocols/1.json
   def destroy
     @protocol = current_user.protocols.find(params[:id])
     @protocol.destroy

@@ -1,19 +1,16 @@
 class AntibodiesController < ApplicationController
   before_filter :authenticate_user!, except: [:index, :show]
-  # GET /antibodies
-  # GET /antibodies.json
+
   def index
     @search = Antibody.search(params[:q])
     @antibodies = @search.result.page(params[:page]).per_page(20).find_with_reputation(:votes, :all, order: "votes desc")
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html
       format.json { render json: @antibodies }
     end
   end
 
-  # GET /antibodies/1
-  # GET /antibodies/1.json
   def show
     @antibodies = @search.result
 
@@ -24,23 +21,20 @@ class AntibodiesController < ApplicationController
       @antibody
     end
     respond_to do |format|
-      format.html # show.html.erb
+      format.html
       format.json { render json: @antibody }
     end
   end
 
-  # GET /antibodies/new
-  # GET /antibodies/new.json
   def new
     @antibody = Antibody.new
 
     respond_to do |format|
-      format.html # new.html.erb
+      format.html
       format.json { render json: @antibody }
     end
   end
 
-  # GET /antibodies/1/edit
   def edit
     if user_signed_in?
       @antibody
@@ -49,8 +43,6 @@ class AntibodiesController < ApplicationController
     end
   end
 
-  # POST /antibodies
-  # POST /antibodies.json
   def create
     @antibody = Antibody.new(params[:antibody])
 
@@ -65,8 +57,6 @@ class AntibodiesController < ApplicationController
     end
   end
 
-  # PUT /antibodies/1
-  # PUT /antibodies/1.json
   def update
     @antibody = Antibody.find(params[:id])
 
@@ -81,8 +71,6 @@ class AntibodiesController < ApplicationController
     end
   end
 
-  # DELETE /antibodies/1
-  # DELETE /antibodies/1.json
   def destroy
     @antibody = Antibody.find(params[:id])
     @antibody.destroy
