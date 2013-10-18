@@ -12,6 +12,7 @@ gem 'table_print'
 gem 'pg'
 gem 'ransack'
 gem 'carrierwave'
+gem 'fog'
 
 group :development, :test do
 	gem 'rspec-rails'
@@ -21,6 +22,7 @@ group :development, :test do
 	gem 'capybara'
 	gem 'launchy'
 	gem 'factory_girl_rails'
+  gem 'dotenv-rails'
 end
 
 group :assets do
