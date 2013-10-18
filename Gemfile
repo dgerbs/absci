@@ -11,6 +11,7 @@ gem 'activerecord-reputation-system', require: 'reputation_system'
 gem 'table_print'
 gem 'pg'
 gem 'ransack'
+gem 'carrierwave'
 
 group :development, :test do
 	gem 'rspec-rails'

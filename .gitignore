@@ -20,3 +20,4 @@ doc/
 .DS_store
 .idea
 /.env
+/public/uploads

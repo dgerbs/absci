@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131008135731) do
+ActiveRecord::Schema.define(:version => 20131009140725) do
 
   create_table "antibodies", :force => true do |t|
     t.string   "target",     :null => false
@@ -103,7 +103,7 @@ ActiveRecord::Schema.define(:version => 20131008135731) do
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
     t.string   "name"
-    t.string   "user_photo"
+    t.string   "image"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
