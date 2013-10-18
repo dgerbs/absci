@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131009140725) do
+ActiveRecord::Schema.define(:version => 20131018192731) do
 
   create_table "antibodies", :force => true do |t|
     t.string   "target",     :null => false

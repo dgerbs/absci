@@ -1,6 +1,6 @@
 development:
   adapter: postgresql
-  database: sciero_development
+  database: sciero_development_2
   encoding: unicode
   pool: 5
   username:
