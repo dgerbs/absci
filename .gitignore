@@ -20,3 +20,5 @@ doc/
 .DS_store
 .idea
 /.env
+/public/uploads
+/config/initializers/carrierwave.rb
