@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
 gem 'rails', '3.2.13'
 gem 'jquery-rails'
 gem 'devise'
@@ -13,6 +15,10 @@ gem 'pg'
 gem 'ransack'
 gem 'carrierwave'
 gem 'fog'
+
+group :production do
+  gem 'rails_12factor'
+end
 
 group :development, :test do
 	gem 'rspec-rails'
