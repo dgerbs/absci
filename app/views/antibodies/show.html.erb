@@ -32,6 +32,8 @@
 			</p>
 		</div>
 		<% if @antibody.protocols.any? %>
+		</br>
+		<h4>Protocols for <%= @antibody.antibody %>:</h4>
 			<%= render :partial => 'protocols/protocol' %>
 			<%= will_paginate @protocols %>
 		<% else %>
