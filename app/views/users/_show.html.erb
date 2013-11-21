@@ -1,22 +1,19 @@
 <div class="container-fluid">
   <div class="row-fluid">
-    <div class="span3">
+    <div class="span2">
     	<div class="well">
       	<p class="welcome">
       		Welcome, <%= current_user.name %>!
       	</p>
-        <%= image_tag current_user.image %>
+        <%= image_tag current_user.image_url(:thumb) %>
         <br />
         <br />
     	</div>
-      <div class="nav">
-        <%= link_to "Add Antibody", new_antibody_path, class: "btn btn-success" %>
-        <%= link_to "Search Antibodies", antibodies_path, class: "btn btn-info" %>
-      </div>
+        <%= link_to "Add Antibody", new_antibody_path, class: "btn btn-success" %>   
     </div>
     <!-- if user is signed in && no protocols are present, render alert for no protocols -->
 		<% if @user.protocols.empty? %>
-			<div class="span8">
+			<div class="span10">
 				<div class="row">
 					<div class="span6 offset3">
 						<div class="text-center">
@@ -32,7 +29,7 @@
 			</div>
 		<% else %>
 		<!-- otherwise render list of user's protocols -->
-	    <div class="span9">
+	    <div class="span10">
         <div class="accordion" id="accordion2">
           <div class="accordion-heading">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
