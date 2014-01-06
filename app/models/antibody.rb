@@ -7,6 +7,7 @@ class Antibody < ActiveRecord::Base
   validates_presence_of :vendor
   validates_presence_of :isotype
 
+  has_many :users
   has_many :protocols, dependent: :destroy
 
   has_reputation :votes, source: :user, aggregated_by: :sum
